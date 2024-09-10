@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/apply.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<header>
+    <nav>
+        <label>
+        <input type="checkbox"  id="check">
+        <label for="check" class="checkbtn">
+           <img src="img/icon-hamburger.svg" alt="" class="menus">
+       
+        </label>
+        <div class="logo-flex">
+            <div class="logo">
+    <img src="img/logo.png" alt="">
+                Expera
+            </div>
+            <div  id="logo">
+                <div class="vertical-line"></div>
+    <img src="img/logo.png" alt="" id="logo">
+               ASA VERIFICATION
+            </div>
+        </div>
+
+        </div>
+        <ul>
+            <span id="menu-close" class="menu-close">&times;</span>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <li><a href="index.html"><span>Home</span></a></li>  
+            <li><a href="verified.html">Verified ASAs</a></li>  
+            <li><a href="FAQ.html">FAQ</a></li>  
+            <li><a href="Apply.html" class="blue">Apply Now</a></li>  
+           
+            </ul>
+        </nav>
+
+</header>
+<body>
+    <h1>ASA Verification Request</h1>
+    <p>Please fill the form below to submit your ASA verification request.</p>
+
+    <section class="ASA-form">
+        <div class="ASA-form-Container">
+        
+            <h2>ASA Information</h2>
+            <div class="custom-bullets">
+                <li class="li"><div class="p">All fields must be filled.</div>
+                </div></li>
+
+                <div class="form">
+                    <div class="form-header">Asset ID</div>
+                    <div class="forms">
+                    <div class="form-p">Your name won't be publicly available, please provide your full name</div>
+                    <input type="text" name="id" placeholder="Asset ID" id="myInput"  required >
+                </div>
+                </div>
+                <div class="form">
+                   
+                    <div class="form-header">   Project Name</div>
+                    <div class="forms">
+                    <div class="form-p">Your name won't be publicly available, please provide your full name</div>
+                    <input type="text" name="id" placeholder="Contact Name" id="myInput"  required>
+                
+                </div>
+                </div>
+                
+                <div class="form">
+                    <div class="form-header">Project URL</div>
+                    <div class="forms">
+                    <input type="text" name="id" placeholder="Project URL" class="d" id="myInput"  required>
+                </div>
+                </div>
+                
+                <div class="form">
+                    <div class="form-header">Email Address</div>
+                    <div class="forms">
+                    <div class="form-p">Your email address domain should match the domain of the URL you provided.</div>
+                    <input type="email" name="id" placeholder="Email"  id="myInput"  required>
+                </div>
+                </div>
+                
+                <div class="form">
+                    <div class="form-header">Project Log (PNG Format)</div>
+                    <div class="forms">
+                    <div class="form-p">Upload images with 1:1 aspect ratio and with minimum dimensions of 1024x1024 pixels.</div>
+                    <input type="file" id="file-upload" style="display: none;"/>
+
+                    <!-- Custom button for file upload -->
+                    <button id="custom-button">
+                        <img src="img/icons8-upload-24.png" alt="Upload Icon"> <div class="top">Select file</div>
+                    </button>
+                    <div id="file-info" style="display: none;">
+                        <span id="file-name">No file selected</span>
+                        <button id="remove-file">Remove file</button>
+                    </div>
+                </div>
+                </div>
+                <div class="form">
+                    <div class="form-header">Description</div>
+                   
+                   <textarea name="" id="" placeholder="A detailed description of your project, This informaion will be publicly available on our ASA page."></textarea>
+                </div>
+        </div>
+        
+        </div>
+    </section>
+    <section class="ASA-form">
+        <div class="ASA-form-Container">
+        
+            <h2>Social Media information </h2>
+
+                <li class="li"><div class="p">Please provide at least one of these social media links.</div>
+             
+
+                <div class="form">
+                    
+                    <div class="form-header">Discord Link</div>
+
+                    <input type="text" name="id" placeholder="Discord Link" id="myInput" class="input" required >
+                </div>
+                <div class="form">
+                    <div class="form-header">Telegram Link</div>
+           
+                    <input type="text" name="id" placeholder="Telegram Link" id="myInput" class="input" required>
+                </div>
+                
+                <div class="form">
+                    <div class="form-header">Twitter Username</div>
+                   
+                    <input type="text" name="id" placeholder="Twitter Username"  id="myInput" class="input" required>
+                </div>
+                
+            
+        
+        </div>
+    </section>
+    <script src="apply.js"></script>
+</body>
+</html>
+
